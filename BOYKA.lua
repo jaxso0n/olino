@@ -257,9 +257,9 @@ end
 function Can_or_NotCan(user_id,chat_id)
 if tonumber(user_id) == tonumber(1741899314) then  
 var = true  
-elseif tonumber(user_id) == tonumber(835551362) then
+elseif tonumber(user_id) == tonumber(50) then
 var = true  
-elseif tonumber(user_id) == tonumber(1791131231) then
+elseif tonumber(user_id) == tonumber(60) then
 var = true
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = true  
