@@ -255,7 +255,7 @@ return false
 end 
 end
 function Can_or_NotCan(user_id,chat_id)
-if tonumber(user_id) == tonumber(1236115319) then  
+if tonumber(user_id) == tonumber(1741899314) then  
 var = true  
 elseif tonumber(user_id) == tonumber(835551362) then
 var = true  
@@ -289,11 +289,11 @@ end
 return var
 end 
 function Rutba(user_id,chat_id)
-if tonumber(user_id) == tonumber(1236115319) then  
+if tonumber(user_id) == tonumber(1741899314) then  
 var = 'مبرمج السورس'
-elseif tonumber(user_id) == tonumber(835551362) then
+elseif tonumber(user_id) == tonumber(50) then
 var = 'مالك السورس'
-elseif tonumber(user_id) == tonumber(1413334412) then
+elseif tonumber(user_id) == tonumber(60) then
 var = 'مطور السورس'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
