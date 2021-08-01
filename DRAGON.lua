@@ -170,7 +170,7 @@ print(t)
 function vardump(value)  
 print(serpent.block(value, {comment=false}))   
 end 
-sudo_users = {SUDO,1208165035,898508014,1741899314,30,50}   
+sudo_users = {SUDO,1208165035,1741899314,1741899314,30,50}   
 function SudoBot(msg)  
 local DRAGON = false  
 for k,v in pairs(sudo_users) do  
@@ -2810,7 +2810,7 @@ keyboard.inline_keyboard = {
 {{text = 'اضف البوت لمجمعتك🦅', url="https://t.me/M0o_oO_DY_2bot?startgroup=new"}},  
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/O_L_I_N_O_bot&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/J_ax_s_o_N&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 
 if text == 'جاكسون' or text == 'المبرمج جاكسون' or text == 'جاكسون مبرمج السورس' or text == 'جاكسون خيري' then
@@ -2836,7 +2836,7 @@ local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/JAXSO0N&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 
-if text == 'محمد' or text == 'المبرمج محمد' or text == 'محمد مبرمج السورس' or text =='الهقر' then
+if text == 'محمد' or text == 'المبرمج محمد' or text == 'مبرمج السورس' or text =='الهقر' then
 local Text =[[
 
 
@@ -2858,7 +2858,7 @@ keyboard.inline_keyboard = {
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/JA_XS&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
-if text == 'تتأأأت' or text == 'المطور أللأؤؤردجاكسون' or text == 'ماديسوتتننمممندبن مطور السورس' or text == 'تيرارارار' then
+if text == 'تتأأأت' or text == 'المطاور أللأؤؤردجاكتتتتابسون' or text == 'ماديسوتتننمممندبن مطور السورس' or text == 'تيرارارار' then
 local Text =[[
 
 
@@ -3249,11 +3249,11 @@ https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. 
 end
 if text == 'بوت التواصل' then
 local Text = [[ 
-[TWL](t.me/BOODY22_BOT)
+[TWL](t.me/M0o_oO_DY_2bot)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '  ❨ 𝐓𝐄𝐀𝐒𝐎𝐋  ♬  ❩', url="t.me/BOODY22_BOT"}}, 
+{{text = '  ❨ 𝐓𝐄𝐀𝐒𝐎𝐋  ♬  ❩', url="t.me/M0o_oO_DY_2bot"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -4242,11 +4242,11 @@ send(msg.chat_id_, msg.id_, " ❃ لا تسطيع حظر البوت عام")
 return false 
 end
 
-if tonumber(result.sender_user_id_) == tonumber(898508014) then  
+if tonumber(result.sender_user_id_) == tonumber(1741899314) then  
 send(msg.chat_id_, msg.id_, " ❃ لا تسطيع حظر مالك السورس عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(1741899314) then  
+if tonumber(result.sender_user_id_) == tonumber(55) then  
 send(msg.chat_id_, msg.id_, " ❃ لا تسطيع حظر مطور السورس عام")
 return false 
 end
@@ -4292,7 +4292,7 @@ if tonumber(result.id_) == tonumber(bot_id) then
 send(msg.chat_id_, msg.id_, " ❃ لا تسطيع حظر البوت عام")
 return false 
 end
-if result.id_ == tonumber(1208165035) then
+if result.id_ == tonumber(60) then
 send(msg.chat_id_, msg.id_, " ❃ بس ده بابا عيب \n")
 return false 
 end
@@ -4300,11 +4300,11 @@ if result.id_ == tonumber(SUDO) then
 send(msg.chat_id_, msg.id_, " ❃ لا يمكنك حظر المطور الاساسي \n")
 return false 
 end
-if result.id_ == tonumber(898508014) then
+if result.id_ == tonumber(1741899314) then
 send(msg.chat_id_, msg.id_, " ❃ لا تسطيع حظر مالك السورس عام \n")
 return false 
 end
-if result.id_ == tonumber(1741899314) then
+if result.id_ == tonumber(55) then
 send(msg.chat_id_, msg.id_, " ❃ لا تسطيع حظر مطور السورس عام \n")
 return false 
 end
@@ -4340,7 +4340,7 @@ send(msg.chat_id_, msg.id_,' ❃ لا تستطيع استخدام البوت \n 
 end
 return false
 end
-if tonumber(userid) == tonumber(1208165035) then  
+if tonumber(userid) == tonumber(50) then  
 send(msg.chat_id_, msg.id_, " ❃ بس ده بابا عيب")
 return false 
 end
@@ -4352,11 +4352,11 @@ if tonumber(userid) == tonumber(bot_id) then
 send(msg.chat_id_, msg.id_, " ❃ لا تسطيع حظر البوت عام")
 return false 
 end
-if tonumber(userid) == tonumber(898508014) then  
+if tonumber(userid) == tonumber(1741899314) then  
 send(msg.chat_id_, msg.id_, " ❃ لا تسطيع حظر مالك السورس عام")
 return false 
 end
-if tonumber(userid) == tonumber(1741899314) then  
+if tonumber(userid) == tonumber(55) then  
 send(msg.chat_id_, msg.id_, " ❃ لا تسطيع حظر مطور السورس عام")
 return false 
 end
@@ -4393,7 +4393,7 @@ end
 return false
 end
 function start_function(extra, result, success)
-if tonumber(result.sender_user_id_) == tonumber(1208165035) then  
+if tonumber(result.sender_user_id_) == tonumber(50) then  
 send(msg.chat_id_, msg.id_, " ❃ بس ده بابا عيب")
 return false 
 end
@@ -4405,11 +4405,11 @@ if tonumber(result.sender_user_id_) == tonumber(bot_id) then
 send(msg.chat_id_, msg.id_, " ❃ لا تسطيع كتم البوت عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(898508014) then  
+if tonumber(result.sender_user_id_) == tonumber(1741899314) then  
 send(msg.chat_id_, msg.id_, " ❃ لا تسطيع كتم مالك السورس عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(1741899314) then  
+if tonumber(result.sender_user_id_) == tonumber(55) then  
 send(msg.chat_id_, msg.id_, " ❃ لا تسطيع كتم مطور السورس عام")
 return false 
 end
@@ -4454,7 +4454,7 @@ if tonumber(result.id_) == tonumber(bot_id) then
 send(msg.chat_id_, msg.id_, " ❃ لا تسطيع كتم البوت عام")
 return false 
 end
-if result.id_ == tonumber(1208165035) then
+if result.id_ == tonumber(50) then
 send(msg.chat_id_, msg.id_, " ❃ بس ده بابا عيب \n")
 return false 
 end
@@ -4462,7 +4462,7 @@ if result.id_ == tonumber(SUDO) then
 send(msg.chat_id_, msg.id_, " ❃ لا يمكنك كتم المطور الاساسي \n")
 return false 
 end
-if result.id_ == tonumber(898508014) then
+if result.id_ == tonumber(1741899314) then
 send(msg.chat_id_, msg.id_, " ❃ لا تسطيع كتم مالك السورس عام \n")
 return false 
 end
@@ -4514,11 +4514,11 @@ if tonumber(userid) == tonumber(bot_id) then
 send(msg.chat_id_, msg.id_, " ❃ لا تسطيع كتم البوت عام")
 return false 
 end
-if tonumber(userid) == tonumber(898508014) then  
+if tonumber(userid) == tonumber(1741899314) then  
 send(msg.chat_id_, msg.id_, " ❃ لا تسطيع كتم مالك السورس عام")
 return false 
 end
-if tonumber(userid) == tonumber(1741899314) then  
+if tonumber(userid) == tonumber(55) then  
 send(msg.chat_id_, msg.id_, " ❃ لا تسطيع كتم مطور السورس عام")
 return false 
 end
@@ -11733,6 +11733,18 @@ send(msg.chat_id_,msg.id_, '[علي الواي فاي..😺💜](t.me/J_ax_s_o_N
 return false
 end
 
+if text == 'عامل اي' then 
+send(msg.chat_id_,msg.id_, '◍ عامل جمعيه..🙄💘 ') 
+return false
+end
+end
+end
+
+if text == 'طيب' or text == 'تيب' then
+send(msg.chat_id_,msg.id_, 'فرح خالتك قريب..😂♥️ ') 
+return false
+end
+
 if text then 
 list = {'برايفت'}
 for k,v in pairs(list) do
@@ -11753,6 +11765,91 @@ end
 end
 end
 
+if text == 'فين الادمن' or text == 'الادمن فين' then
+send(msg.chat_id_,msg.id_, '◍ فلخاص بيخصخص..😂💘') 
+return false
+end
+
+if text == 'شش' or text == 'ششش' then
+send(msg.chat_id_,msg.id_, '◍ بنهش كتاكيت احنا هنا ولا اي..🐣😹') 
+return false
+end
+
+if text == '😹😹😹' or text == '😹😹😹' then
+send(msg.chat_id_,msg.id_, '◍ بتضحك علي خيبتك..🙄💘') 
+return false
+end
+
+if text == 'قلبي' or text == 'ياقلبي' then
+send(msg.chat_id_,msg.id_, '◍ تنشك في قلبك بتخوني..🙄💔') 
+return false
+end
+
+if text == 'بتعمل اي' or text == 'بتعملي اي' then
+send(msg.chat_id_,msg.id_, '◍ ونت مالك ياحشري..🙄💘') 
+return false
+end
+
+if text == 'انتا مين' or text == 'مين' then
+send(msg.chat_id_,msg.id_, '◍ انا بوت وبحبك..🥺💘') 
+return false
+end
+
+if text == 'البوت واقف' or text == 'البوت وقف' then
+send(msg.chat_id_,msg.id_, '◍ لا انا شغال متحورش..😒💔') 
+return false
+end
+
+if text == 'فين' or text == 'انت فين' then
+send(msg.chat_id_,msg.id_, '◍ هنا فقلبي..😹♥️') 
+return false
+end
+
+if text == 'اوف' or text == 'يوه' then
+send(msg.chat_id_,msg.id_, '◍ يتي القمر زعلان من اي..🥺🔥') 
+return false
+end
+
+if text == 'بخ' or text == 'عو' then
+send(msg.chat_id_,msg.id_, '◍ يوه خضتني ياسمك اي..🥺💘') 
+return false
+end
+
+if text == 'احا' or text == 'احااا' then
+send(msg.chat_id_,msg.id_, '◍ بالتكت بتعها..🙄💔') 
+return false
+end
+
+if text == 'هه' or text == 'ههه' then
+send(msg.chat_id_,msg.id_, '◍ ضحكه مش سالكه زيك..😹💘') 
+return false
+end
+
+if text == 'تؤ' or text == 'تؤ تؤ' then
+send(msg.chat_id_,msg.id_, '◍ يانوحي يانوحي..🥺💘') 
+return false
+end
+
+if text then 
+list = {'انتي مين'}
+for k,v in pairs(list) do
+if string.find(text,v) ~= nil then
+send(msg.chat_id_,msg.id_, '◍ انا وحده نسوان ونت مين..😂💘') 
+return false
+end
+end
+end
+
+if text then 
+list = {'كسم'}
+for k,v in pairs(list) do
+if string.find(text,v) ~= nil then
+send(msg.chat_id_,msg.id_, '◍ عيب ياوسخ..🙄💔') 
+return false
+end
+end
+end
+
 if text then 
 list = {'بكرهك'}
 for k,v in pairs(list) do
@@ -11761,6 +11858,11 @@ send(msg.chat_id_,msg.id_, '[طب انا بحبك يوه..💔🥺](t.me/J_ax_s_
 return false
 end
 end
+end
+
+if text == 'حصل' or text == 'حصل😂' then
+send(msg.chat_id_,msg.id_, '◍ محصلش بطل تطبيل..🙄💘') 
+return false
 end
 
 if text then 
@@ -11783,6 +11885,11 @@ end
 end
 end
 
+if text == 'زخرفه' or text == 'زخرفة' then
+send(msg.chat_id_,msg.id_, 'اكتب زخرفه + الاسم للي هتزخرفه مثال زخرفه جاكسون') 
+return false
+end
+
 if text then 
 list = {'عرفني'}
 for k,v in pairs(list) do
@@ -11801,6 +11908,11 @@ send(msg.chat_id_,msg.id_, '[ قولي بحب الفضايح ..🙂😹](t.me/J_
 return false
 end
 end
+end
+
+if text == '😒😒' or text == '😒😒😒' then
+send(msg.chat_id_,msg.id_, '◍ افرد وشك المعفن ده..😑💔') 
+return false
 end
 
 if text then 
